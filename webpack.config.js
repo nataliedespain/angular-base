@@ -47,6 +47,9 @@ module.exports = {
     new webpack.ContextReplacementPlugin(
       /angular(\\|\/)core(\\|\/)@angular/
     )
-  ]
+  ],
+  devServer: {
+    historyApiFallback: true
+  }
 }
 

@@ -5,7 +5,7 @@ import { AppModule } from '../app/app.module';
 
 declare var module: any;
 if (module.hot) {
-    module.hot.accept();
+  module.hot.accept();
 }
 
 platformBrowserDynamic().bootstrapModule(AppModule);
